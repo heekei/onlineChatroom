@@ -1,0 +1,20 @@
+{
+    "remotePath": "/root/onlinechat/",
+    "host": "115.28.247.208",
+    "username": "root",
+    "password": "TONYloveZXQ0610",
+    "port": 22,
+    "secure": false,
+    "protocol": "sftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": true,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\node_modules",
+        "\\.DS_Store"
+    ]
+}

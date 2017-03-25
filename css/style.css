@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Lucida Grande', 'Arial', 'Hiragino Sans GB', '微软雅黑', 'WenQuanYi Micro Hei', 'STHeiti', 'SimSun', 'sans-serif';
+}
+body * {
+  box-sizing: border-box;
+}
+.wrap {
+  padding: 10px;
+}
+/*消息对话框*/
+.message-box {
+  max-width: 640px;
+  width: 100%;
+  min-width: 300px;
+  margin: 10px auto 0;
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+}
+.message-box .btn-area {
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+  padding: 0;
+  font-size: 0;
+}
+.message-box .btn-area:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.message-box .btn-area > button {
+  display: inline-block;
+  vertical-align: middle;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 5px;
+  border: none;
+  color: #000;
+  outline: 0;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 2px;
+  border: 0;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Lucida Grande', 'Arial', 'Hiragino Sans GB', '微软雅黑', 'WenQuanYi Micro Hei', 'STHeiti', 'SimSun', 'sans-serif';
+}
+.message-box .btn-area > button:active {
+  background: #e5e5e5;
+}
+.message-box .btn-area > button[type=submit] {
+  color: #fff;
+  background: #009bdb;
+  box-shadow: 0 0 1px 1px #009bdb;
+}
+.message-box .btn-area > button[type=submit]:active {
+  background: #4bcaff;
+}
+/*消息对话框头部*/
+.mb-header {
+  height: 50px;
+  line-height: 50px;
+  font-size: 0;
+  border-bottom: 1px solid #ebebeb;
+}
+/*好友头像*/
+.friend-avatar {
+  display: inline-block;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+}
+/*好友昵称*/
+.friend-nick {
+  vertical-align: middle;
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+}
+.friend-nick:hover {
+  text-decoration: underline;
+}
+.SystemRes {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  color: #d5d5d5;
+  margin-left: 10px;
+}
+.mb-main {
+  height: 300px;
+  padding: 10px;
+  overflow: auto;
+  border-bottom: 1px solid #ebebeb;
+}
+.mb-main > ul {
+  margin: 0;
+  padding: 0;
+}
+.mb-main > ul > li {
+  margin: 10px 0;
+}
+.mb-main > ul > li > .friend-avatar {
+  margin: 0;
+  vertical-align: top;
+}
+.mb-main > ul > li > .msg {
+  position: relative;
+  max-width: 80%;
+  margin-left: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background: #ffc666;
+  padding: 10px;
+  display: inline-block;
+  word-break: break-all;
+}
+.mb-main > ul > li > .msg:before {
+  width: 0;
+  height: 0;
+  position: absolute;
+  content: "";
+  border-right: 5px solid #ffc666;
+  border-top: 5px transparent solid;
+  border-bottom: 5px transparent solid;
+  top: 10px;
+  left: -5px;
+}
+.mb-main > ul > li > .msg img {
+  max-width: 100%;
+}
+.mb-main > ul > li.self:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.mb-main > ul > li.self > .friend-avatar {
+  margin: 0;
+  vertical-align: top;
+  float: right;
+}
+.mb-main > ul > li.self > .msg {
+  float: right;
+  position: relative;
+  max-width: 80%;
+  margin-right: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background: #a6d4f2;
+  padding: 10px;
+}
+.mb-main > ul > li.self > .msg:before {
+  display: none;
+}
+.mb-main > ul > li.self > .msg:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-right: none;
+  border-left: 5px solid #a6d4f2;
+  border-top: 5px transparent solid;
+  border-bottom: 5px transparent solid;
+  top: 10px;
+  right: -5px;
+}
+.mb-ready2post {
+  height: 90px;
+  outline: 0;
+  padding: 10px;
+  overflow: auto;
+}
+/*# sourceMappingURL=style.css.map */

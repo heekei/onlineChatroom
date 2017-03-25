@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "ws": "^1.1.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-minify": "^0.0.14",
+    "gulp-webserver": "^0.9.1",
+    "imagemin-pngquant": "^5.0.0"
+  },
+  "name": "onlinechat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node wsServer.js | http-server -p 80"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

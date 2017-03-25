@@ -1,0 +1,345 @@
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)
+C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219
+    else throw new Error('not opened');
+         ^
+
+Error: not opened
+    at WebSocket.send (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocket.js:219:16)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:52:16
+    at Array.forEach (native)
+    at sendExptSelf (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:50:19)
+    at WebSocketServer.<anonymous> (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\index.js:35:5)
+    at emitOne (events.js:96:13)
+    at WebSocketServer.emit (events.js:188:7)
+    at C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:91:14
+    at completeHybiUpgrade2 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:284:5)
+    at completeHybiUpgrade1 (C:\Users\Administrator\Desktop\Github Projects\OnlineChat\node_modules\.1.1.1@ws\lib\WebSocketServer.js:309:13)

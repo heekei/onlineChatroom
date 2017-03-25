@@ -1,0 +1,15 @@
+
+> onlinechat@1.0.0 start C:\Users\Administrator\Desktop\Github Projects\OnlineChat
+> node wsServer.js | http-server -p 80
+
+[33mStarting up http-server, serving [39m[36m./[39m[33m
+Available on:[39m
+[32m  http://192.168.5.1:80[39m
+[32m  http://192.168.9.1:80[39m
+[32m  http://172.16.18.4:80[39m
+[32m  http://127.0.0.1:80[39m
+Hit CTRL-C to stop the server
+[Thu Jan 19 2017 11:51:11 GMT+0800 (ä¸­å›½æ ‡å‡†æ—¶é—´)] "[36mGET[39m [36m/[39m" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36"
+[31mhttp-server stopped.[39m
+ÖÕÖ¹Åú´¦Àí²Ù×÷Âğ(Y/N)? 
+ÖÕÖ¹Åú´¦Àí²Ù×÷Âğ(Y/N)? ÖÕÖ¹Åú´¦Àí²Ù×÷Âğ(Y/N)? ÖÕÖ¹Åú´¦Àí²Ù×÷Âğ(Y/N)? 

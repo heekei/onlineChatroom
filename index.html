@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="pragma" content="no-cache">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="message-box">
+            <div class="mb-header">
+                <img src="images/avatar.png" class="friend-avatar" alt="">
+                <a href="javascript:;" class="friend-nick">在线聊天室</a>
+                <label class="SystemRes"></label>
+            </div>
+            <div class="mb-main">
+                <ul>
+                    <li class="mb-msgrow">
+                        <img src="images/avatar.png" class="friend-avatar" alt="">
+                        <div class="msg">
+                            123<br>123123<br>123123<br>123123<br>123
+                        </div>
+                    </li>
+                    <li class="mb-msgrow self">
+                        <img src="images/avatar.png" class="friend-avatar" alt="">
+                        <div class="msg">
+                            123<br>123123<br>123123<br>123123<br>123
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="mb-ready2post" contenteditable="true" aria-required="true">
+                
+            </div>
+            <div class="btn-area">
+                <button type="button">关闭</button>
+                <button type="submit" title="按Ctrl+Enter发送消息">发送</button>
+            </div>
+        </div>
+    </div>
+    <script>
+    var bundle = document.createElement("script")
+    bundle.src="js/index.js"
+    document.head.appendChild(bundle)
+    </script>
+</body>
+
+</html>
