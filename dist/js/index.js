@@ -1,5 +1,6 @@
-var wsURL = "ws://192.168.9.93:8080";
-// var wsURL = "ws://115.28.247.208:8080";
+// var wsURL = "ws://192.168.9.93:8080"; //m2
+// var wsURL = "ws://172.16.18.4:8080";  //m1
+var wsURL = "ws://115.28.247.208:8080";
 var ws = new WebSocket(wsURL);
 ws.onopen = onOpen;
 ws.onmessage = onMessage;
@@ -8,6 +9,7 @@ ws.onclose = function (e) {
     onClose();
     reConnect(ws)
 }
+// TODO: this todo is valid
 function reConnect(oldWS) {
     ws = new WebSocket(wsURL);
     ws.onopen = oldWS.onopen;

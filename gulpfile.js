@@ -11,17 +11,17 @@ var livereload = require('gulp-livereload');
 var webserver = require('gulp-webserver');
 
 gulp.task('html', function () {
-    return gulp.src('*.html')
-        .pipe(gulp.dest('./src/'))
+    return gulp.src('./*.html')
+        .pipe(gulp.dest('./dist/'))
         .pipe(livereload());
 })
 gulp.task('js', function () {
-    return gulp.src('js/**/*.*')
-        .pipe(gulp.dest('./src/js/'))
+    return gulp.src('./js/**/*.*')
+        .pipe(gulp.dest('./dist/js/'))
         .pipe(livereload());
 })
 gulp.task('css', function () {
-    return gulp.src('css/*.css')
+    return gulp.src('./css/*.css')
         // .pipe(concatcss("bundle.css"))
         .pipe(autoprefixer())
         .pipe(csscomb())
@@ -29,11 +29,11 @@ gulp.task('css', function () {
             "keepBreaks": true,
             "compatibility": 'ie7'
         }))
-        .pipe(gulp.dest('./src/css/'))
+        .pipe(gulp.dest('./dist/css/'))
         .pipe(livereload());
 })
 gulp.task('images', function () {
-    return gulp.src('images/*')
+    return gulp.src('./images/*')
         .pipe(cache(imagemin({
             optimizationLevel: 5, //类型：Number  默认：3  取值范围：0-7（优化等级）
             progressive: true, //类型：Boolean 默认：false 无损压缩jpg图片
@@ -42,7 +42,7 @@ gulp.task('images', function () {
             svgoPlugins: [{ removeViewBox: false }],//不要移除svg的viewbox属性
             use: [pngquant()] //使用pngquant深度压缩png图片的imagemin插件
         })))
-        .pipe(gulp.dest('./src/images/'))
+        .pipe(gulp.dest('./dist/images/'))
         .pipe(livereload());
 })
 
@@ -57,9 +57,9 @@ gulp.task('webserver', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch('css/*.css', ['css'])
-    gulp.watch('images/*', ['images'])
-    gulp.watch('js/*', ['js'])
+    gulp.watch('./css/*.css', ['css'])
+    gulp.watch('./images/*', ['images'])
+    gulp.watch('./js/*', ['js'])
     gulp.watch('./*.html', ['html'])
     livereload.listen();
 })

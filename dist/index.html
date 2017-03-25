@@ -5,6 +5,7 @@
     <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="pragma" content="no-cache">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -41,7 +42,11 @@
             </div>
         </div>
     </div>
-    <script src="js/index.js"></script>
+    <script>
+    var bundle = document.createElement("script")
+    bundle.src="js/index.js"
+    document.head.appendChild(bundle)
+    </script>
 </body>
 
 </html>
