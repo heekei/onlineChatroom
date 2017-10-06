@@ -5,12 +5,23 @@ var ws = new WebSocket(wsURL);
 ws.onopen = onOpen;
 ws.onmessage = onMessage;
 ws.onerror = onError;
+const maxReconnectTimes = 3;
+var reconnectNum = 1;
+const reconnectTime = 3000;
 ws.onclose = function (e) {
     onClose();
-    reConnect(ws)
+    setTimeout(function () {
+        ++reconnectNum;
+        reConnect(ws);
+    }, reconnectTime);
 }
 // TODO: this todo is valid
+var joined = false;//初始化
 function reConnect(oldWS) {
+    if (reconnectNum > maxReconnectTimes) {
+        document.querySelector(".SystemRes").innerHTML = "连接失败，请稍后再试！";
+        return;
+    }
     ws = new WebSocket(wsURL);
     ws.onopen = oldWS.onopen;
     ws.onmessage = oldWS.onmessage;
@@ -19,44 +30,46 @@ function reConnect(oldWS) {
 }
 function onOpen() {
     document.querySelector(".SystemRes").innerHTML = "正在连接服务器";
+
 }
 function onMessage(res) {
     var jsonObj = JSON.parse(res.data)
     if (jsonObj.SystemRes) {//系统消息
         document.querySelector(".SystemRes").innerHTML = jsonObj.SystemRes;
     }
+    if (!joined && jsonObj.history) {//历史记录读取
+        for (var i = 0; i < jsonObj.history.length; i++) {
+            var msg = jsonObj.history[i];
+            document.querySelector(".mb-main > ul").innerHTML += generateDOM(msg);
+        }
+        joined = true;
+    }
     if (typeof jsonObj.onlinecount == "number") {
         document.querySelector(".SystemRes").innerHTML = "当前在线人数：" + jsonObj.onlinecount;
     }
     if (jsonObj.chat) {//用户聊天消息
-        var li = '<li class="mb-msgrow">'
-            + '<img src="images/avatar.png" class="friend-avatar" alt="">'
-            + '<div class="msg" title="发送时间：' + new Date(jsonObj.chat.timestamp).toLocaleString() + '">'
-            + jsonObj.chat.message
-            + '</div>'
-            + '</li>';
-        document.querySelector(".mb-main > ul").innerHTML += li;
+        document.querySelector(".mb-main > ul").innerHTML += generateDOM(jsonObj);
         notifyMe(jsonObj.chat.username, jsonObj.chat.message)
     }
     document.querySelector(".mb-main").scrollTop = document.querySelector(".mb-main").scrollHeight;
 
 }
 function onError(e) {
-    document.querySelector(".SystemRes").innerHTML = "服务器连接端断开，正在尝试重连；当前在线人数：未知";
+    document.querySelector(".SystemRes").innerHTML = "服务器连接发生错误：" + e.type;
 }
 function onClose() {
-    document.querySelector(".SystemRes").innerHTML = "服务器连接端断开，正在尝试重连；当前在线人数：未知";
+    document.querySelector(".SystemRes").innerHTML = "服务器连接失败，正在尝试第" + reconnectNum + "次重连";
 }
 //发消息
 document.querySelector("button[type=submit]").addEventListener("click", function (e) {
     e.preventDefault();
-    postMsg("测试"/*document.querySelector("#username").value*/, document.querySelector(".mb-ready2post").innerHTML);
+    postMsg(document.querySelector("#username").value, document.querySelector(".mb-ready2post").innerHTML);
     document.querySelector(".mb-ready2post").innerHTML = "";
     document.querySelector(".mb-main").scrollTop = document.querySelector(".mb-main").scrollHeight;
 })
 document.querySelector(".mb-ready2post").addEventListener("keypress", function (e) {
     if (e.ctrlKey && e.keyCode === 10) {
-        postMsg("测试"/*document.querySelector("#username").value*/, document.querySelector(".mb-ready2post").innerHTML);
+        postMsg(document.querySelector("#username").value, document.querySelector(".mb-ready2post").innerHTML);
         document.querySelector(".mb-ready2post").innerHTML = "";
         document.querySelector(".mb-main").scrollTop = document.querySelector(".mb-main").scrollHeight;
     }
@@ -115,7 +128,7 @@ function notifyMe(username, message) {
         var notification = new Notification(username, {
             "body": message,
             "icon": "images/avatar.png",
-            "tag":"userchat"
+            "tag": "userchat"
         });
         notification.onclick = function (e) {
             window.focus();
@@ -140,4 +153,15 @@ function notifyMe(username, message) {
 
     // At last, if the user already denied any notification, and you 
     // want to be respectful there is no need to bother them any more.
+}
+
+function generateDOM(msg) {
+    var isSelf = msg.chat.username === document.querySelector('#username').value;
+    var li = '<li class="mb-msgrow' + (isSelf ? ' self' : '') + '">'
+        + '<i class="friend-avatar" title="'+msg.chat.username+'"></i>'
+        + '<div class="msg" title="发送时间：' + new Date(msg.chat.timestamp).toLocaleString() + '">'
+        + msg.chat.message
+        + '</div>'
+        + '</li>';
+    return li;
 }

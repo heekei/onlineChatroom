@@ -13,13 +13,15 @@
     <div class="wrap">
         <div class="message-box">
             <div class="mb-header">
-                <img src="images/avatar.png" class="friend-avatar" alt="">
-                <a href="javascript:;" class="friend-nick">在线聊天室</a>
+                <!-- <img src="images/avatar.png" class="friend-avatar" alt=""> -->
+                <i class="friend-avatar" title=""></i>
+                <!-- <a href="javascript:;" class="friend-nick">在线聊天室</a> -->
+                <input type="text" id="username" value="" placeholder="请输入你的用户名">
                 <label class="SystemRes"></label>
             </div>
             <div class="mb-main">
                 <ul>
-                    <li class="mb-msgrow">
+                    <!-- <li class="mb-msgrow">
                         <img src="images/avatar.png" class="friend-avatar" alt="">
                         <div class="msg">
                             123<br>123123<br>123123<br>123123<br>123
@@ -30,12 +32,10 @@
                         <div class="msg">
                             123<br>123123<br>123123<br>123123<br>123
                         </div>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
-            <div class="mb-ready2post" contenteditable="true" aria-required="true">
-                
-            </div>
+            <div class="mb-ready2post" contenteditable="true" aria-required="true"></div>
             <div class="btn-area">
                 <button type="button">关闭</button>
                 <button type="submit" title="按Ctrl+Enter发送消息">发送</button>
@@ -43,9 +43,22 @@
         </div>
     </div>
     <script>
-    var bundle = document.createElement("script")
-    bundle.src="js/index.js"
-    document.head.appendChild(bundle)
+        var queryString = location.search.substr(1, location.search.length - 1);
+        var queryArr = queryString.split('&');
+        queryArr.map(function (item, index) {
+            var keyVal = item.split('=');
+            var key = keyVal[0];
+            var val = keyVal[1];
+            if (key === 'u') {
+                document.querySelector('#username').value = decodeURI(val);
+                document.querySelector('.friend-avatar').title = decodeURI(val);
+            }
+        });
+    </script>
+    <script>
+        var bundle = document.createElement("script")
+        bundle.src = "js/index.js"
+        document.head.appendChild(bundle)
     </script>
 </body>
 

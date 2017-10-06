@@ -66,6 +66,23 @@ body * {
   font-size: 0;
   border-bottom: 1px solid #ebebeb;
 }
+input#username {
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  line-height: 18px;
+  padding: 4px;
+  box-sizing: border-box;
+  outline: none;
+}
+input#username:focus,
+input#username:active {
+  border-color: #404040!important;
+}
+input#username:hover {
+  border-color: #888888;
+}
 /*好友头像*/
 .friend-avatar {
   display: inline-block;
@@ -73,6 +90,18 @@ body * {
   width: 40px;
   height: 40px;
   margin: 0 10px;
+  text-align: center;
+}
+.friend-avatar:before {
+  content: attr(title);
+  font-size: 30px;
+  color: #000;
+  height: 40px;
+  width: 32px;
+  line-height: 40px;
+  display: inline-block;
+  overflow: hidden;
+  font-style: normal;
 }
 /*好友昵称*/
 .friend-nick {
