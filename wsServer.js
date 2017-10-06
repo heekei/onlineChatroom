@@ -2,8 +2,8 @@
 var WebSocketServer = require('ws').Server
     , wss = new WebSocketServer({
         // path: "/chat",
-        // host: '192.168.9.93',
-        host: '172.16.18.4',
+        host: '192.168.31.200',
+        // host: '172.16.18.4',
         port: 8080
     });
 var cltCollection = [];

@@ -52,7 +52,7 @@ gulp.task('webserver', function () {
         .pipe(webserver({ // 运行gulp-webserver
             livereload: true, // 启用LiveReload
             open: false // 服务器启动时自动打开网页
-            , port: 8080
+            , port: 8000
         }));
 });
 
