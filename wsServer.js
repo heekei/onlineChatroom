@@ -4,7 +4,7 @@ var WebSocketServer = require('ws').Server
         // path: "/chat",
         host: '192.168.31.200',
         // host: '172.16.18.4',
-        port: 8080
+        port: 8000
     });
 var cltCollection = [];
 wss.on('connection', function (ws) {
