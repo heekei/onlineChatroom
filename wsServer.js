@@ -9,7 +9,12 @@ var wss = new WebSocketServer({
 });
 var cltCollection = [];
 
-var hisJSON = fs.readFileSync('history.json', 'utf-8');
+var hisJSON;
+try {
+    hisJSON = fs.readFileSync('history.json', 'utf-8');
+} catch (error) {
+    hisJSON = '';
+}
 if (hisJSON === '') hisJSON = '[]';
 chatHistory = JSON.parse(hisJSON);
 
