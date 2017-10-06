@@ -59,6 +59,10 @@ body * {
 .message-box .btn-area > button[type=submit]:active {
   background: #4bcaff;
 }
+.message-box .btn-area > button[type=submit][disabled] {
+  background: #ccc;
+  box-shadow: 0 0 1px 1px #ccc;
+}
 /*消息对话框头部*/
 .mb-header {
   height: 50px;

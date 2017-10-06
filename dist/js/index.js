@@ -63,11 +63,13 @@ function onClose() {
 //发消息
 document.querySelector("button[type=submit]").addEventListener("click", function (e) {
     e.preventDefault();
+    if (document.querySelector('#username').value === '') return;
     postMsg(document.querySelector("#username").value, document.querySelector(".mb-ready2post").innerHTML);
     document.querySelector(".mb-ready2post").innerHTML = "";
     document.querySelector(".mb-main").scrollTop = document.querySelector(".mb-main").scrollHeight;
 })
 document.querySelector(".mb-ready2post").addEventListener("keypress", function (e) {
+    if (document.querySelector('#username').value === '') return;
     if (e.ctrlKey && e.keyCode === 10) {
         postMsg(document.querySelector("#username").value, document.querySelector(".mb-ready2post").innerHTML);
         document.querySelector(".mb-ready2post").innerHTML = "";
