@@ -16,7 +16,7 @@
                 <!-- <img src="images/avatar.png" class="friend-avatar" alt=""> -->
                 <i class="friend-avatar" title=""></i>
                 <!-- <a href="javascript:;" class="friend-nick">在线聊天室</a> -->
-                <input type="text" id="username" value="" placeholder="请输入你的用户名">
+                <input type="text" id="username" value="" oninput="location.hash=this.value" placeholder="请输入你的用户名">
                 <label class="SystemRes"></label>
             </div>
             <div class="mb-main">
@@ -43,17 +43,12 @@
         </div>
     </div>
     <script>
-        var queryString = location.search.substr(1, location.search.length - 1);
-        var queryArr = queryString.split('&');
-        queryArr.map(function (item, index) {
-            var keyVal = item.split('=');
-            var key = keyVal[0];
-            var val = keyVal[1];
-            if (key === 'u') {
-                document.querySelector('#username').value = decodeURI(val);
-                document.querySelector('.friend-avatar').title = decodeURI(val);
-            }
-        });
+        var uname = location.hash.substr(1, location.hash.length - 1);
+        document.querySelector('#username').value = decodeURI(uname);
+        document.querySelector('.friend-avatar').title = decodeURI(uname);
+        window.onhashchange = function () {
+            document.querySelector('#username').value = location.hash.substr(1, location.hash.length - 1);
+        };
     </script>
     <script>
         var bundle = document.createElement("script")
