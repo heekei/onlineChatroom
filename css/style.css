@@ -91,17 +91,21 @@ input#username:hover {
   height: 40px;
   margin: 0 10px;
   text-align: center;
+  border: 1px solid #dcdcdc;
+  border-radius: 50%;
+  padding: 5px;
 }
 .friend-avatar:before {
   content: attr(title);
-  font-size: 30px;
-  color: #000;
-  height: 40px;
-  width: 32px;
-  line-height: 40px;
+  font-size: 28px;
+  color: #24a5c3;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
   display: inline-block;
   overflow: hidden;
   font-style: normal;
+  letter-spacing: 1em;
 }
 /*好友昵称*/
 .friend-nick {

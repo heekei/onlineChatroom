@@ -90,13 +90,20 @@ function postMsg(uname, message) {
                 uname,
                 message
             )
-        )
-        var li = '<li class="mb-msgrow self">'
-            + '<img src="images/avatar.png" class="friend-avatar" alt="">'
-            + '<div class="msg">'
-            + message
-            + '</div>'
-            + '</li>';
+        );
+        var msgObj = {
+            chat: {
+                username: uname,
+                message: message
+            }
+        };
+        // var li = '<li class="mb-msgrow self">'
+        //     + '<img src="images/avatar.png" class="friend-avatar" alt="">'
+        //     + '<div class="msg">'
+        //     + message
+        //     + '</div>'
+        //     + '</li>';
+        var li = generateDOM(msgObj);
         document.querySelector(".mb-main > ul").innerHTML += li;
     }
 }
@@ -158,7 +165,7 @@ function notifyMe(username, message) {
 function generateDOM(msg) {
     var isSelf = msg.chat.username === document.querySelector('#username').value;
     var li = '<li class="mb-msgrow' + (isSelf ? ' self' : '') + '">'
-        + '<i class="friend-avatar" title="'+msg.chat.username+'"></i>'
+        + '<i class="friend-avatar" title="' + msg.chat.username + '"></i>'
         + '<div class="msg" title="发送时间：' + new Date(msg.chat.timestamp).toLocaleString() + '">'
         + msg.chat.message
         + '</div>'
