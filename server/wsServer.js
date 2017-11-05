@@ -5,7 +5,7 @@ var wss = new WebSocketServer({
     // path: "/chat",
     host: '192.168.31.200',
     // host: '172.16.18.4',
-    port: 443
+    port: 8000
 });
 var cltCollection = [];
 

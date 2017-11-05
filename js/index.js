@@ -5,9 +5,9 @@ var ws = new WebSocket(wsURL);
 ws.onopen = onOpen;
 ws.onmessage = onMessage;
 ws.onerror = onError;
-const maxReconnectTimes = 3;
-var reconnectNum = 1;
-const reconnectTime = 3000;
+const maxReconnectTimes = 10;//最大重连次数
+var reconnectNum = 1;//当前重连次数
+const reconnectTime = 3000;//重连间隔时间
 ws.onclose = function (e) {
     onClose();
     setTimeout(function () {
@@ -69,7 +69,7 @@ document.querySelector("button[type=submit]").addEventListener("click", function
     document.querySelector(".mb-main").scrollTop = document.querySelector(".mb-main").scrollHeight;
 })
 document.querySelector(".mb-ready2post").addEventListener("keypress", function (e) {
-    if (document.querySelector('#username').value === '') return;
+    if (document.querySelector('#username').value === '' || location.hash === '') return;
     if (e.ctrlKey && e.keyCode === 10) {
         postMsg(document.querySelector("#username").value, document.querySelector(".mb-ready2post").innerHTML);
         document.querySelector(".mb-ready2post").innerHTML = "";
@@ -99,12 +99,6 @@ function postMsg(uname, message) {
                 message: message
             }
         };
-        // var li = '<li class="mb-msgrow self">'
-        //     + '<img src="images/avatar.png" class="friend-avatar" alt="">'
-        //     + '<div class="msg">'
-        //     + message
-        //     + '</div>'
-        //     + '</li>';
         var li = generateDOM(msgObj);
         document.querySelector(".mb-main > ul").innerHTML += li;
     }
